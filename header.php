@@ -4,7 +4,12 @@
         <div class="row">
             <div class="col-sm">
 
-                <h1 class="text-hide" style="background-image: url('logo.png'); width: 235px;height:59px">Ty Bugale</h1>
+                <h1 class="text-hide" >
+                    Ty Bugale
+                </h1>
+                <a href="/">
+                    <img src="logo.png" style="width: 235px;height:59px"></img>
+                </a>
             </div>
             <div class="col-sm">
             </div>

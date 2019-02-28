@@ -3,25 +3,8 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-    <style>
-        body{
-            background-color: #eeeeee;
-            font-family: "Amatic SC";
-            font-size: 2em;
-        }
+    <link rel="stylesheet" href=" creche.css" >
 
-
-
-        header *{
-            background-color: white;
-        }
-
-        a.nav-link {
-            color: black;
-            font-weight: bold;
-        }
-
-    </style>
     <meta charset="UTF-8">
     <title>Crèche Ty Bugale</title>
 </head>
