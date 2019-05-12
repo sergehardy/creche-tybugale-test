@@ -15,5 +15,5 @@
     </p>
 </div>
 <div class="col" >
-    <img src="2.png" style="width: 100%"></img>
+    <img src="/assets/images/2.png" style="width: 100%"></img>
 </div>

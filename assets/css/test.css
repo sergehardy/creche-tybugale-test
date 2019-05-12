@@ -1,0 +1,69 @@
+header {
+    background: url('/assets/images/fond-bleu.png') no-repeat center center;
+    background-size: 100%;
+
+}
+
+body{
+    background-color: #eeeeee;
+    font-family: "Roboto";
+    font-size: 1.2em;
+}
+
+
+
+
+
+.clip               { position: absolute; top: 0; left: 0; }
+
+.pos-1              { clip:rect(0 48px 48px 0); }
+.pos-2              { clip:rect(0 96px 48px 48px); left: -48px; }
+.pos-3              { clip:rect(48px 48px 96px 0); top: -48px; }
+.pos-4              { clip:rect(48px 96px 96px 48px); top: -48px;  left: -48px; }
+
+
+
+h3{
+    font-family: "Amatic SC";
+    font-size: 3em;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1500px;
+}
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+section {
+    height: 900px;
+    background: url('/assets/images/accueil-background.jpg') no-repeat center center ;
+    /*fixed*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+
+}
+
+.white{
+    color:#ffffff
+}
+
+.bg-red{
+    background-color:#d51254;
+}
+
+
+.bg-blue{
+    background-color:#2a6796;
+}
+
+
+.bg-orange{
+    background-color:#f8a10d;
+}

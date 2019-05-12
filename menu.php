@@ -1,18 +1,14 @@
-<div class="row">
-    <div class="col-sm">
-    <ul class="nav  justify-content-md-center " style="background-color: white">
-        <li class="nav-item mx-4">
-            <a class="nav-link" href="?p=lieu">Le lieu</a>
+    <ul class="nav nav-bar mr-auto justify-content-end" style="background-color: white">
+        <li class="mx-4">
+            <a class="nav-link" href="?p=lieu">La crèche</a>
         </li>
-        <li class="nav-item mx-4">
-            <a class="nav-link" href="?p=fonctionnement">Fonctionnement</a>
+        <li class="mx-4">
+            <a class="nav-link" href="?p=fonctionnement">Le rôle de parent</a>
         </li>
-        <li class="nav-item mx-4">
-            <a class="nav-link" href="?p=projet">Projet</a>
+        <li class="mx-4">
+            <a class="nav-link" href="?p=projet">Le quotidien</a>
         </li>
-        <li class="nav-item mx-4">
-            <a class="nav-link" href="?p=contact">Nous contacter</a>
+        <li class="mx-4">
+            <a class="nav-link" href="?p=contact">Infos pratiques</a>
         </li>
     </ul>
-    </div>
-</div>
