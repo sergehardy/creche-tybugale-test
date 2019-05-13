@@ -28,16 +28,6 @@ h3{
     font-size: 3em;
 }
 
-.container {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1500px;
-}
-.btn-default {
-    color: #333333;
-    background-color: #ffffff;
-    border-color: #dddddd;
-}
 
 section {
     height: 900px;
@@ -66,4 +56,45 @@ section {
 
 .bg-orange{
     background-color:#f8a10d;
+}
+
+.bg-green{
+    background-color:#449d69;
+}
+
+
+
+
+/*Bootstrap override*/
+.navbar .navbar-nav {
+    /*display: inline-block;*/
+    /*float: none;*/
+
+}
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+
+li.nav-item > h2{
+    font-family: "Amatic SC";
+    font-size: 2.6em;
+    color:#ffffff;
+    transform:  skewY(2deg);
+
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1500px;
+}
+.btn-default {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+li.nav-item{
+    transform:  skewY(-2deg);
 }
