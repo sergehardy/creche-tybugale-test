@@ -1,6 +1,9 @@
 header {
-    background: url('/assets/images/fond-bleu.png') no-repeat center center;
-    background-size: 100%;
+    /*background: url('/assets/images/fond-bleu2.png') no-repeat center center;*/
+    /*background-size: 100%;*/
+    background-image: url("/assets/images/fond-bleu.jpg");
+    background-repeat: repeat;
+    background-size: 20%;
 
 }
 
@@ -76,13 +79,6 @@ section {
 }
 
 
-li.nav-item > h2{
-    font-family: "Amatic SC";
-    font-size: 2.6em;
-    color:#ffffff;
-    transform:  skewY(2deg);
-
-}
 
 .container {
     margin-right: auto;
@@ -94,6 +90,15 @@ li.nav-item > h2{
     background-color: #ffffff;
     border-color: #dddddd;
 }
+
+li.nav-item > h2{
+    font-family: "Amatic SC";
+    font-size: 2.6em;
+    color:#ffffff;
+    transform:  skewY(2deg);
+
+}
+
 
 li.nav-item{
     transform:  skewY(-2deg);
