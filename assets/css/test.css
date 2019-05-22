@@ -91,7 +91,7 @@ section {
     border-color: #dddddd;
 }
 
-li.nav-item > h2{
+li.nav-item > h2,div.dropdown a> h2{
     font-family: "Amatic SC";
     font-size: 2.6em;
     color:#ffffff;
@@ -100,6 +100,15 @@ li.nav-item > h2{
 }
 
 
-li.nav-item{
+li.nav-item,div.dropdown a{
     transform:  skewY(-2deg);
+}
+.dropdown-menu{
+    background-color: transparent;
+    border: 0px;
+
+}
+
+.dropdown-item{
+color: #ffffff;
 }
