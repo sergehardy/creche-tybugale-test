@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link href='https://fonts.googleapis.com/css?family=Shadows Into Light' rel='stylesheet'>
-
 
         <link rel="stylesheet" href="/assets/css/test.css" >
 
@@ -19,7 +18,7 @@
     <header class="container my-2 d-flex">
 
         <div  class="d-flex">
-                <img src="/assets/images/icone-ty-bugale.png"></img>
+                <img height="220px" src="/assets/images/TyBugaleLogo.png"></img>
             </div>
 
             <div class="flex-column w-100">
@@ -28,27 +27,130 @@
                     <form><input type="text" value="Rechercher"> </form>
                 </div>
                 <nav class="d-flex w-100 h-100 align-bottom navbar navbar-expand-lg ">
-                    <ul class="navbar-nav" >
-                        <li class="nav-item bg-red m-3 p-1">
-                            <h2>La crèche</h2>
-                        </li>
-                        <li class="nav-item bg-blue m-3 p-1">
-                            <h2>Le rôle de parent</h2>
-                        </li>
-                        <li class="nav-item bg-green m-3 p-1">
-                            <h2>Le quotidien</h2>
-                        </li>
-                        <li class="nav-item bg-orange m-3 p-1">
-                            <h2>Infos pratiques</h2>
-                        </li>
+                    <!--<ul class="navbar-nav" >-->
+                        <!--<li class="nav-item bg-red m-3 p-1">-->
+                            <!--<h2>La crèche</h2>-->
 
-                    </ul>
+
+                        <!--</li>-->
+                        <!--<li class="nav-item bg-blue m-3 p-1">-->
+                            <!--<h2>Le rôle de parent</h2>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item bg-green m-3 p-1">-->
+                            <!--<h2>Le quotidien</h2>-->
+                        <!--</li>-->
+                        <!--<li class="nav-item bg-orange m-3 p-1">-->
+                            <!--<h2>Infos pratiques</h2>-->
+                        <!--</li>-->
+
+                    <!--</ul>-->
+
+                    <div class="dropdown show  m-3 p-1">
+                        <a class="btn btn-secondary nav-item bg-red" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <h2>La crèche</h2>
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <li class="nav-item bg-red ">
+                                <h2><a class="dropdown-item" href="#">L’histoire</a></h2>
+                            </li>
+                            <li class="nav-item bg-red">
+                                <h2><a class="dropdown-item" href="#">Visite virtuelle crèche</a></h2>
+                            </li>
+                            <li class="nav-item bg-red ">
+                                <h2><a class="dropdown-item" href="#">La démarche / les valeurs</a></h2>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="dropdown show  m-3 p-1">
+                        <a class="btn btn-secondary nav-item bg-blue" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <h2>Le rôle de parent</h2>
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <li class="nav-item bg-blue ">
+                                <h2><a class="dropdown-item" href="#">Engagement des parents</a></h2>
+                            </li>
+                            <li class="nav-item bg-blue">
+                                <h2><a class="dropdown-item" href="#">Les permanences</a></h2>
+                            </li>
+                            <li class="nav-item bg-blue ">
+                                <h2><a class="dropdown-item" href="#">Les postes</a></h2>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+                    <div class="dropdown show  m-3 p-1">
+                        <a class="btn btn-secondary nav-item bg-green" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <h2>Le quotidien</h2>
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <li class="nav-item bg-green ">
+                                <h2><a class="dropdown-item" href="#">Au jour le jour</a></h2>
+                            </li>
+                            <li class="nav-item bg-green">
+                                <h2><a class="dropdown-item" href="#">L’équipe de professionnels</a></h2>
+                            </li>
+                            <li class="nav-item bg-green ">
+                                <h2><a class="dropdown-item" href="#">La nourriture</a></h2>
+                            </li>
+                            <li class="nav-item bg-green ">
+                                <h2><a class="dropdown-item" href="#">Les activités</a></h2>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+                    <div class="dropdown show  m-3 p-1">
+                        <a class="btn btn-secondary nav-item bg-orange" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <h2>Infos pratiques</h2>
+                        </a>
+
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+                            <li class="nav-item bg-orange ">
+                                <h2><a class="dropdown-item" href="#">Contact / plan</a></h2>
+                            </li>
+                            <li class="nav-item bg-orange">
+                                <h2><a class="dropdown-item" href="#">Questions fréquentes</a></h2>
+                            </li>
+                            <li class="nav-item bg-orange ">
+                                <h2><a class="dropdown-item" href="#">S’inscrire / Candidater / Liste d’attente</a></h2>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </nav>
 
             </div>
     </header>
     <!--</header>-->
-        <div class="container my-2 d-flex">
+
+    <div class="container my-2 d-flex">
 
     <div class="container text-center">
             <section>
@@ -61,7 +163,6 @@
                     <br/></p>
                 </div>
                 <div class="row">
-
 
                     <div class="col-sm-4 px-5 white">
                             <div class="box bg-red">
@@ -97,6 +198,20 @@
                 </div>
             </section>
 
+        </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--<script>-->
+        <!--$("a.btn").on("mouseenter", function () {-->
+            <!--// make sure it is not shown:-->
+            <!--if (!$(this).parent().hasClass("show")) {-->
+                <!--$(this).click();-->
+            <!--}-->
+        <!--});-->
+    <!--</script>-->
     </body>
 </html>

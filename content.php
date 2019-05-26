@@ -1,9 +1,6 @@
-<div class="row">
+<?php
 
-    <?php
+$page= $_GET['p'] ?? "home";
 
-    $page= $_GET['p'] ?? "home";
-    include __DIR__."/pages/$page.php";
 
-    ?>
-</div>
+include __DIR__."/pages/$page.php";

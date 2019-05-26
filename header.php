@@ -1,27 +1,64 @@
-<header>
-    <div class="container my-2 px-0">
+<header class="container my-2 d-flex">
 
-        <div class="row">
-            <div class="col-sm4">
+    <div  class="d-flex">
+        <img height="220px" src="/assets/images/TyBugaleLogo.png"></img>
+    </div>
 
-                <h1 class="text-hide" >
-                    Ty Bugale
-                </h1>
-                <a href="/">
-                    <img src="logo.png" style="width: 235px;height:59px"></img>
-                </a>
-            </div>
-            <div class="col-sm8">
+    <div class="flex-column w-100">
+        <div class="d-flex flex-row-reverse">
 
-                <div class="row">
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Rechercher">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
-                    </form>
-                </div>
-                <div class="row ">
-                    <?php include __DIR__."/menu.php";?>
-                </div>
-            </div>
+            <form><input type="text" value="Rechercher"> </form>
         </div>
+        <nav class="d-flex w-100 h-100 align-bottom navbar navbar-expand-lg ">
+
+            <?php $menus=[
+                [
+                        'menu'=>'La crèche',
+                        'color' => 'red',
+                        'subMenus'=>[
+                                "L’histoire",
+                                "Visite virtuelle crèche",
+                                "La démarche / les valeurs"
+                        ]
+                ],
+                [
+                    'menu'=>'Le rôle de parent',
+                    'color' => 'blue',
+                    'subMenus'=>[
+                        "Engagement des parents",
+                        "Les permanences",
+                        "Les postes"
+                    ]
+                ],
+                [
+                    'menu'=>'Le quotidien',
+                    'color' => 'green',
+                    'subMenus'=>[
+                        "Au jour le jour",
+                        "L’équipe de professionnels",
+                        "La nourriture",
+                        "Les activités"
+                    ]
+                ],
+                [
+                    'menu'=>'Infos pratiques',
+                    'color' => 'orange',
+                    'subMenus'=>[
+                        "Contact / plan",
+                        "Questions fréquentes",
+                        "S’inscrire / Candidater / Liste d’attente"
+                    ]
+                ],
+
+            ];
+
+            foreach ($menus as $menu) {
+                echo block("menu",$menu);
+            }
+            ?>
+
+        </nav>
+
+    </div>
 </header>
+    
