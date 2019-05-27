@@ -1,6 +1,17 @@
 <?php
+$page= substr($_SERVER['REQUEST_URI'],1) ;
 
-$page= $_GET['p'] ?? "home";
+$page = $page ? $page : "home";
+$file = __DIR__ . "/pages/$page.php";
 
+if (!file_exists($file)) {
+//    touch($file);
+    return ;
+    throw new \HttpException();
+}
 
-include __DIR__."/pages/$page.php";
+?>
+
+<?php
+include $file;
+?>

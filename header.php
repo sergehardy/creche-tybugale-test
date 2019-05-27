@@ -1,7 +1,7 @@
 <header class="container my-2 d-flex">
 
     <div  class="d-flex">
-        <img height="220px" src="/assets/images/TyBugaleLogo.png"></img>
+        <a href="/"><img height="220px" src="/assets/images/TyBugaleLogo.png"></img></a>
     </div>
 
     <div class="flex-column w-100">
@@ -13,40 +13,44 @@
 
             <?php $menus=[
                 [
+                        'href' => '/la-creche',
                         'menu'=>'La crèche',
                         'color' => 'red',
                         'subMenus'=>[
-                                "L’histoire",
-                                "Visite virtuelle crèche",
-                                "La démarche / les valeurs"
+                            "/l-histoire"=>"L’histoire",
+                            "/visite-virtuelle"=>   "Visite virtuelle crèche",
+                            "/demarche-et-valeurs"=>   "La démarche / les valeurs"
                         ]
                 ],
                 [
+                    'href' => '/le-role-de-parent',
                     'menu'=>'Le rôle de parent',
                     'color' => 'blue',
                     'subMenus'=>[
-                        "Engagement des parents",
-                        "Les permanences",
-                        "Les postes"
+                        "/engagement-des-parents"=>"Engagement des parents",
+                        "/les-permanences"=>"Les permanences",
+                        "/les-postes"=>"Les postes"
                     ]
                 ],
                 [
+                    'href' => '/le-quotidien',
                     'menu'=>'Le quotidien',
                     'color' => 'green',
                     'subMenus'=>[
-                        "Au jour le jour",
-                        "L’équipe de professionnels",
-                        "La nourriture",
-                        "Les activités"
+                        "/au-jour-le-jour"=>"Au jour le jour",
+                        "/l-equipe"=>"L’équipe de professionnels",
+                        "/la-nourriture"=>"La nourriture",
+                        "/les-activites"=>"Les activités"
                     ]
                 ],
                 [
+                    'href' => '/infos-pratiques',
                     'menu'=>'Infos pratiques',
                     'color' => 'orange',
                     'subMenus'=>[
-                        "Contact / plan",
-                        "Questions fréquentes",
-                        "S’inscrire / Candidater / Liste d’attente"
+                        "/contact-plan"=>"Contact / plan",
+                        "/faq"=>"Questions fréquentes",
+                        "/inscription"=>"S’inscrire / Candidater / Liste d’attente"
                     ]
                 ],
 
