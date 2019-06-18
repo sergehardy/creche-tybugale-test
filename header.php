@@ -1,19 +1,16 @@
-<header class="container my-2 d-flex">
 
-    <div  class="d-flex">
-        <a href="/"><img height="220px" src="/assets/images/TyBugaleLogo.png"></img></a>
+    <div  class="col-sm-2">
+        <a href="/">
+            <img height="220px" src="/assets/images/TyBugaleLogo.png"></img>
+        </a>
     </div>
 
-    <div class="flex-column w-100">
-        <div class="d-flex flex-row-reverse">
-
-            <form><input type="text" value="Rechercher"> </form>
-        </div>
-        <nav class="d-flex w-100 h-100 align-bottom navbar navbar-expand-lg ">
+    <div class="col-sm-10 d-flex w-100">
+        <nav class="navbar navbar-expand-lg ">
 
             <?php $menus=[
-                [
-                        'href' => '/la-creche',
+                '/la-creche'=>[
+
                         'menu'=>'La crèche',
                         'color' => 'red',
                         'subMenus'=>[
@@ -22,8 +19,8 @@
                             "/demarche-et-valeurs"=>   "La démarche / les valeurs"
                         ]
                 ],
+                '/le-role-de-parent'=>
                 [
-                    'href' => '/le-role-de-parent',
                     'menu'=>'Le rôle de parent',
                     'color' => 'blue',
                     'subMenus'=>[
@@ -32,8 +29,8 @@
                         "/les-postes"=>"Les postes"
                     ]
                 ],
+                '/le-quotidien'=>
                 [
-                    'href' => '/le-quotidien',
                     'menu'=>'Le quotidien',
                     'color' => 'green',
                     'subMenus'=>[
@@ -43,8 +40,7 @@
                         "/les-activites"=>"Les activités"
                     ]
                 ],
-                [
-                    'href' => '/infos-pratiques',
+                '/infos-pratiques'=>[
                     'menu'=>'Infos pratiques',
                     'color' => 'orange',
                     'subMenus'=>[
@@ -56,13 +52,20 @@
 
             ];
 
-            foreach ($menus as $menu) {
-                echo block("menu",$menu);
+            foreach ($menus as $href=>$menu) {
+                echo block("menu",["href"=>$href,"menu"=>$menu]);
             }
             ?>
+            <form><input type="text" value="Rechercher"> </form>
 
         </nav>
 
+
+<!--        <div class="d-flex">-->
+<!---->
+<!--            <form><input type="text" value="Rechercher"> </form>-->
+<!--        </div>-->
+
+
     </div>
-</header>
     

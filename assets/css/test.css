@@ -8,9 +8,11 @@ header, footer {
 }
 
 body{
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
+    background-color: #ffffff;
     font-family: "Roboto";
-    font-size: 1.2em;
+    font-size: 1em;
+    color: #737373;
 }
 
 a{
@@ -121,4 +123,31 @@ li.nav-item,div.dropdown a{
 
 .dropdown-item{
 color: #ffffff;
+}
+
+/*https://www.1001creches.com/entreprises/*/
+@font-face {
+    font-family: 'caviar_dreams';
+    url('/assets/fonts/CaviarDreams.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p{
+    /*font-family: "caviar_dreams" !important;*/
+    font-family:"Roboto";
+    /*color: rgb(102, 102, 102) !important;*/
+    text-align: center !important;
+    margin: 1em;
+    padding: 0.5em;
+    /*padding: 20px;*/
+    /*padding-bottom: 20px;*/
+}
+
+
+
+h4{
+    margin-top: 1em;
+    text-transform: uppercase;
 }

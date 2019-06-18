@@ -9,7 +9,6 @@
                 <br/></p>
         </div>
         <div class="row">
-
             <?php
 
             $blocks=[
@@ -42,7 +41,6 @@
             }
 
             ?>
-
         </div>
     </section>
 
