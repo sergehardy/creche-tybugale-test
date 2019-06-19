@@ -1,7 +1,14 @@
 
    <!--        <img class="" width="40%"  src="https://cdn.pixabay.com/photo/2017/04/05/08/18/kindergarten-2204239_960_720.jpg">-->
-<h4>Le matin&nbsp;<span class="stripes"></span></h4>
-        <p class="text-justify">Arrivé à la crèche à 9h. Des copains sont déjà arrivés. Il y a le papa de xxx qui plie du linge.
+<!--    <div class="paragraph-title">-->
+<!--            <span class="h4">Le&nbsp;matin</span>-->
+<!--            <span class="stripes" />-->
+<!--    </div>-->
+
+   <h4>Le matin</h4>
+
+
+   <p class="text-justify">Arrivé à la crèche à 9h. Des copains sont déjà arrivés. Il y a le papa de xxx qui plie du linge.
             On prend le petit jus de fruit dans la cuisine
             On s’habille et on va se promener car c’est mon tour. Pendant ce temps les copains qui restent font du dessin</p>
             <br/>
@@ -10,7 +17,6 @@
         <h4>Le midi</h4>
             <p  class="text-justify">On mange . Mathieu nous a fait … C’est bon! La maman de … aide les petits à manger.</p>
 <!--            <img width="30%"  src="/assets/images/au-jour-le-jour/2.png">-->
-
             <br/>
             <h4>La sieste</h4>
             <br/>
