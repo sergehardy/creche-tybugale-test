@@ -1,7 +1,7 @@
 
     <div  class="col-sm-2">
         <a href="/">
-            <img height="220px" src="/assets/images/TyBugaleLogo.png"></img>
+            <img height="220px" src="/assets/images/TyBugaleLogo.png">
         </a>
     </div>
 

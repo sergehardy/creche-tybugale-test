@@ -22,7 +22,6 @@ require_once __DIR__.'/data.php';
     <div class="container-fluid">
         <div class="row">
                 <?php include 'header.php';?>
-            </div>
         </div>
     </div>
 </header>
@@ -33,7 +32,7 @@ require_once __DIR__.'/data.php';
         </div>
     </div>
 </main>
-<footer>
+<footer class="page-footer font-small white footer-copyright text-center py-3">
     <div class="container-fluid  my-2" >
         <?php include 'footer.php';?>
     </div>
