@@ -78,19 +78,19 @@ section {
     background-color: #ffffff;
     min-height: 300px;
 }
-ul{
+main ul{
     list-style: none;
     margin-bottom: 14px;
 }
 
-li {
+main li {
     margin: 0 0 7px 0;
     padding-left: 1em;
 }
-main li:nth-child(1) { border-left: 5px solid #d51254;}
-main li:nth-child(2) { border-left: 5px solid #2a6796;}
-main li:nth-child(3) { border-left: 5px solid #449d69;}
-main li:nth-child(4) { border-left: 5px solid #f8a10d;}
+main li:nth-child(4n+1) { border-left: 5px solid #d51254;}
+main li:nth-child(4n+2) { border-left: 5px solid #2a6796;}
+main li:nth-child(4n+3) { border-left: 5px solid #449d69;}
+main li:nth-child(4n+4) { border-left: 5px solid #f8a10d;}
 
 
 /*Bootstrap override*/
@@ -125,7 +125,7 @@ nav li.nav-item > h2,nav div.dropdown a> h2{
 }
 
 
-li.nav-item,div.dropdown a{
+nav li.nav-item,div.dropdown a{
     transform:  skewY(-2deg);
 }
 .dropdown-menu{
@@ -156,6 +156,7 @@ p{
     padding: 0.1em;
     /*padding: 20px;*/
     /*padding-bottom: 20px;*/
+    text-indent: 1em;
 }
 
 
@@ -203,5 +204,5 @@ blockquote p {
 
 img.float-left{
     height: 200px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
 }

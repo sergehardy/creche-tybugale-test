@@ -10,7 +10,7 @@
         padding: 5px ;
         margin-bottom: 0px;
         white-space:pre;
-        width: 10em;
+        width: 15em;
         margin-right: 0.2em;
         padding-left: 1em;
         font-family: "Amatic SC";
