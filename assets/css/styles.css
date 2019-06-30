@@ -57,7 +57,8 @@ footer {
 
 section {
     height: 900px;
-    background: url('/assets/images/accueil-background.jpg') no-repeat center center;
+    /*background: url('/assets/images/accueil-background.jpg') no-repeat center center;*/
+    background: url('/assets/images/fete.png') no-repeat center center;
     /*fixed*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
