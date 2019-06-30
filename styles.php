@@ -24,6 +24,12 @@
         width:100%;
         /*background: repeating-linear-gradient(-45deg,#d5d5d5, #d5d5d5 1px, #ffffff 1px, #ffffff 5px);*/
         background: repeating-linear-gradient(135deg, #d5d5d5, #d5d5d5 .10em, #ffffff 0, #ffffff .45em);
+        opacity:0.4;
     }
+
+    h5,h6{
+        text-decoration: underline <?php echo $currentMenuColor;?>;
+    }
+
 
 </style>

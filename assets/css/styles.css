@@ -7,7 +7,7 @@ header, footer {
 
 }
 
-body{
+body {
     /*background-color: #eeeeee;*/
     background-color: #ffffff;
     font-family: "Roboto";
@@ -15,35 +15,49 @@ body{
     color: #737373;
 }
 
-a{
+a {
     color: #eeeeee;
 }
 
+.clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.pos-1 {
+    clip: rect(0 48px 48px 0);
+}
 
-.clip               { position: absolute; top: 0; left: 0; }
+.pos-2 {
+    clip: rect(0 96px 48px 48px);
+    left: -48px;
+}
 
-.pos-1              { clip:rect(0 48px 48px 0); }
-.pos-2              { clip:rect(0 96px 48px 48px); left: -48px; }
-.pos-3              { clip:rect(48px 48px 96px 0); top: -48px; }
-.pos-4              { clip:rect(48px 96px 96px 48px); top: -48px;  left: -48px; }
+.pos-3 {
+    clip: rect(48px 48px 96px 0);
+    top: -48px;
+}
 
+.pos-4 {
+    clip: rect(48px 96px 96px 48px);
+    top: -48px;
+    left: -48px;
+}
 
-
-
-h3{
+h3 {
     font-family: "Amatic SC";
     font-size: 3em;
 
 }
 
-footer
-{  font-family: "Amatic SC";
-   }
+footer {
+    font-family: "Amatic SC";
+}
 
 section {
     height: 900px;
-    background: url('/assets/images/accueil-background.jpg') no-repeat center center ;
+    background: url('/assets/images/accueil-background.jpg') no-repeat center center;
     /*fixed*/
     /*-webkit-background-size: cover;*/
     /*-moz-background-size: cover;*/
@@ -52,33 +66,32 @@ section {
 
 }
 
-.white{
-    color:#ffffff
+.white {
+    color: #ffffff
 }
 
-.bg-red{
-    background-color:#d51254;
+.bg-red {
+    background-color: #d51254;
 }
 
-
-.bg-blue{
-    background-color:#2a6796;
+.bg-blue {
+    background-color: #2a6796;
 }
 
-
-.bg-orange{
-    background-color:#f8a10d;
+.bg-orange {
+    background-color: #f8a10d;
 }
 
-.bg-green{
-    background-color:#449d69;
+.bg-green {
+    background-color: #449d69;
 }
 
 #content {
     background-color: #ffffff;
     min-height: 300px;
 }
-main ul{
+
+main ul {
     list-style: none;
     margin-bottom: 14px;
 }
@@ -87,11 +100,22 @@ main li {
     margin: 0 0 7px 0;
     padding-left: 1em;
 }
-main li:nth-child(4n+1) { border-left: 5px solid #d51254;}
-main li:nth-child(4n+2) { border-left: 5px solid #2a6796;}
-main li:nth-child(4n+3) { border-left: 5px solid #449d69;}
-main li:nth-child(4n+4) { border-left: 5px solid #f8a10d;}
 
+main li:nth-child(4n+1) {
+    border-left: 5px solid #d51254;
+}
+
+main li:nth-child(4n+2) {
+    border-left: 5px solid #2a6796;
+}
+
+main li:nth-child(4n+3) {
+    border-left: 5px solid #449d69;
+}
+
+main li:nth-child(4n+4) {
+    border-left: 5px solid #f8a10d;
+}
 
 /*Bootstrap override*/
 .navbar .navbar-nav {
@@ -99,57 +123,56 @@ main li:nth-child(4n+4) { border-left: 5px solid #f8a10d;}
     /*float: none;*/
 
 }
+
 .navbar .navbar-collapse {
     text-align: center;
 }
-
-
 
 .container {
     margin-right: auto;
     margin-left: auto;
     max-width: 1500px;
 }
+
 .btn-default {
     color: #333333;
     background-color: #ffffff;
     border-color: #dddddd;
 }
 
-nav li.nav-item > h2,nav div.dropdown a> h2{
+nav li.nav-item > h2, nav div.dropdown a > h2 {
     font-family: "Amatic SC";
     font-size: 2.6em;
-    color:#ffffff;
-    transform:  skewY(2deg);
+    color: #ffffff;
+    transform: skewY(2deg);
 
 }
 
-
-nav li.nav-item,div.dropdown a{
-    transform:  skewY(-2deg);
+nav li.nav-item, div.dropdown a {
+    transform: skewY(-2deg);
 }
-.dropdown-menu{
+
+.dropdown-menu {
     background-color: transparent;
     border: 0px;
 
 }
 
-.dropdown-item{
-color: #ffffff;
+.dropdown-item {
+    color: #ffffff;
 }
 
 /*https://www.1001creches.com/entreprises/*/
 @font-face {
     font-family: 'caviar_dreams';
-    url('/assets/fonts/CaviarDreams.ttf') format('truetype'),
-    font-weight: normal;
+url('/assets/fonts/CaviarDreams.ttf') format('truetype'), font-weight: normal;
     font-style: normal;
 
 }
 
-p{
+p {
     /*font-family: "caviar_dreams" !important;*/
-    font-family:"Roboto";
+    font-family: "Roboto";
     /*color: rgb(102, 102, 102) !important;*/
     text-align: justify;
     margin: 0.5em;
@@ -159,26 +182,19 @@ p{
     text-indent: 1em;
 }
 
-
-h3,h4,h5{
+h3, h4, h5 {
     margin: .5em 0 .5em 0;
 }
 
-
-
-h4{
+h4 {
     margin-top: 1em;
     text-transform: uppercase;
 }
 
-
-.paragraph-title{
+.paragraph-title {
     display: flex;
     width: 100%;;
 }
-
-
-
 
 blockquote {
     background: #f9f9f9;
@@ -186,10 +202,11 @@ blockquote {
     border-color: #449d69;
     margin: 1.5em 10px;
     padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
+    quotes: "\201C" "\201D" "\2018" "\2019";
     max-width: 50%;
     margin-left: 3em;
 }
+
 blockquote:before {
     color: #ccc;
     content: open-quote;
@@ -198,11 +215,90 @@ blockquote:before {
     margin-right: 0.25em;
     vertical-align: -0.4em;
 }
+
 blockquote p {
     display: inline;
 }
 
-img.float-left{
+img.float-left {
     height: 200px;
     margin: 10px 10px 10px 0px;
+}
+
+/* Pola
+cf https://paulund.developpez.com/tutoriels/css/images-polaroid/
+*/
+.polaroid-images a {
+    background: white;
+    display: inline;
+    float: left;
+    margin: 0 15px 30px;
+    padding: 10px 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear;
+    z-index: 0;
+}
+
+.polaroid-images a:after {
+    color: #333;
+    font-size: 20px;
+    content: attr(title);
+    position: relative;
+    top: 15px;
+}
+
+.polaroid-images img {
+    display: block;
+    width: inherit;
+}
+
+.polaroid-images a:nth-child(2n) {
+    -webkit-transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    transform: rotate(4deg);
+}
+
+.polaroid-images a:nth-child(3n) {
+    -webkit-transform: rotate(-24deg);
+    -moz-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+}
+
+.polaroid-images a:nth-child(4n) {
+    -webkit-transform: rotate(14deg);
+    -moz-transform: rotate(14deg);
+    transform: rotate(14deg);
+}
+
+.polaroid-images a:nth-child(5n) {
+    -webkit-transform: rotate(-18deg);
+    -moz-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+}
+
+.polaroid-images a:hover {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+
+/**/
+address{
+    border: 1px solid black ;
+    display: block;
+    font-style: italic ;
 }
