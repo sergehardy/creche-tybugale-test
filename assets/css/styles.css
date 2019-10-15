@@ -303,3 +303,8 @@ address{
     display: block;
     font-style: italic ;
 }
+
+#recherche > h5 a
+{
+    color: #d51254
+}

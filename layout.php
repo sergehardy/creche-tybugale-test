@@ -28,7 +28,7 @@ require_once __DIR__.'/data.php';
 <main>
     <div class="container-fluid">
         <div class="row">
-        <?php include 'content.php';?>
+        <?php include isset($searchResults) ? 'searchresults.php':'content.php';?>
         </div>
     </div>
 </main>

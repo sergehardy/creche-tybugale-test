@@ -15,7 +15,8 @@
                 echo block("menu",["href"=>$href,"menu"=>$menu]);
             }
             ?>
-            <form><input type="text" value="Rechercher"> </form>
+
+            <?php get_search_form();?>
 
         </nav>
 

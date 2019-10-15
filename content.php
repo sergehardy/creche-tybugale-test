@@ -12,12 +12,22 @@ if (!file_exists($file)) {
         <h3><?php echo $currentMenu['menu'];?> - <span><?php echo $currentSubMenu;?></span></h3>
     <?php endif;?>
 
-    <?php
-    ob_start();
-    include $file;
-    $content = ob_get_clean();
 
-    echo $content;
+    <?php
+
+
+    ob_start();
+    if (isset($wordpress_content)) {
+        echo $wordpress_content;
+    }
+    else
+    {
+
+        include $file;
+        $content = ob_get_clean();
+
+        echo $content;
+    }
     ?>
 
 </div>
